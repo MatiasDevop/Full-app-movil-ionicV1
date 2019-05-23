@@ -1,0 +1,27 @@
+
+    <ion-view view-title="Automatico">
+      <ion-content padding="true">
+
+       
+
+          <ion-list>
+             
+               <h5 style="text-align:center;"> indice de contamincacion Atmosferica</h5>
+             
+              <div id="container-speedyauto" style="height: 200px;position: center;"></div>
+            <button class="button button-block button-balanced ion-ios-body-outline icon-left" ng-click="goGrafica()">BUENO</button>
+		 				<button class="button button-block button-energized ion-android-bicycle icon-left" ng-clic="goGraficaPm()">REGULAR</button>
+		 				<button class="button button-block button-assertive ion-android-walk icon-left" ng-click="showModalRojo()">MALO</button>
+		 				<button class="button button-block  button-royal ion-android-hand icon-left" ng-click="goAutomatico()" style="background-color: #9c4424">MUY MALO</button>
+             <button class="button button-block  button-dark ion-nuclear icon-left" ng-click="goAutomatico()">EXTREMADAMENTE MALO</button> 
+             
+            <div id="containerstock" style="height: 400px; min-width: 310px;display: block;"></div> 
+          </ion-list>
+         
+          <!-- <a class="button icon ion-home" href="#/tab/home"> Home</a>
+          <a class="button icon ion-chevron-left" href="#/tab/facts"> Scientific Facts</a> -->
+       
+      </ion-content>
+    </ion-view>
+
+    <!-- <script type="text/javascript" src="js/highstock.js"></script>  -->

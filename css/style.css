@@ -1,0 +1,206 @@
+/* Empty. Add your own CSS if you like */
+
+.scroll {
+    height: 100%;
+}
+ #map {
+        height: 100%;
+        width: 100%;
+      }
+      #mapi {
+        height: 100%;
+        width: 100%;
+      }
+        
+
+#btn{
+	background-color:black;
+    height: 67px;
+    width: 169px;
+}
+.car{
+	
+    background: rgba(72,158,234,1);
+background: -moz-linear-gradient(left, rgba(72,158,234,1) 0%, rgba(72,158,234,1) 0%, rgba(32,188,177,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(72,158,234,1)), color-stop(0%, rgba(72,158,234,1)), color-stop(100%, rgba(32,188,177,1)));
+background: -webkit-linear-gradient(left, rgba(72,158,234,1) 0%, rgba(72,158,234,1) 0%, rgba(32,188,177,1) 100%);
+background: -o-linear-gradient(left, rgba(72,158,234,1) 0%, rgba(72,158,234,1) 0%, rgba(32,188,177,1) 100%);
+background: -ms-linear-gradient(left, rgba(72,158,234,1) 0%, rgba(72,158,234,1) 0%, rgba(32,188,177,1) 100%);
+background: linear-gradient(to right, rgba(72,158,234,1) 0%, rgba(72,158,234,1) 0%, rgba(32,188,177,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#489eea', endColorstr='#20bcb1', GradientType=1 );
+
+}
+#btn-m{
+	background-color:rgb(72,0,0);
+}
+#img_l{
+	width: 57px;
+	height: 26px;
+	border-radius: 12%;
+	margin-left: -58px;
+}
+.container{
+	
+		background-image: url("img/monica.png");
+		background: rgba(72,158,234,1);
+background: -moz-linear-gradient(left, rgba(72,158,234,1) 0%, rgba(72,158,234,1) 0%, rgba(32,188,177,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(72,158,234,1)), color-stop(0%, rgba(72,158,234,1)), color-stop(100%, rgba(32,188,177,1)));
+background: -webkit-linear-gradient(left, rgba(72,158,234,1) 0%, rgba(72,158,234,1) 0%, rgba(32,188,177,1) 100%);
+background: -o-linear-gradient(left, rgba(72,158,234,1) 0%, rgba(72,158,234,1) 0%, rgba(32,188,177,1) 100%);
+background: -ms-linear-gradient(left, rgba(72,158,234,1) 0%, rgba(72,158,234,1) 0%, rgba(32,188,177,1) 100%);
+background: linear-gradient(to right, rgba(72,158,234,1) 0%, rgba(72,158,234,1) 0%, rgba(32,188,177,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#489eea', endColorstr='#20bcb1', GradientType=1 );
+}
+img{
+	border-radius: 88px;
+	height: 147px;
+	/*margin-left: 23px;
+	border-radius: 22px;
+	position: absolute;*/
+}
+.city img{
+	width: 100% !important;
+	height: auto;
+}
+#btnsup{
+	position: relative;
+}
+.menubtn{
+	margin-top: 250px;
+	    position: relative;
+}
+h2{
+	color: #ffffff;
+}
+#mapaquilla{
+padding-left: 16px;
+	position: absolute;
+	margin-top: -84px;
+    width: 99%;
+
+}
+
+.progress-outer {
+    display: flex;
+    align-items: flex-end;
+    height:209%;
+    margin: -27px 2%;
+    padding: 3px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border: 2px solid #dcdcdc;
+    color: dark;
+    border-radius: 5px;
+    width: 70%;
+  }
+  
+  .progress-inner {
+    min-height: 15;
+    white-space: nowrap;
+    overflow: hidden;
+    height:15px;
+    flex: 1 1 100%;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(13, 235, 168);
+    width:20px;
+  
+  }
+
+
+  /* to header nav bar */
+.transparent{
+  color: rgb(255, 255, 255);
+    background:linear-gradient(0deg, rgba(16, 17, 17, 0.966) 0%, rgb(16, 17, 17) 100%) !important;
+}
+.tabs-icon-top,
+.tabs-icon-top .tab,
+.tabs-icon-top .tab .nav-view-home {
+    background:-moz-linear-gradient(0deg,rgba(16, 17, 17, 0.966) 0%, rgb(3, 3, 3) 100%);
+  background-color: black;
+}
+.tabs-icon-top .tab {
+    color: #11e2c6;
+    
+}
+
+
+/*to selecttttf*/
+.ion-input-select--large,
+.ion-input-select,
+select {
+  -webkit-appearance:none;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0);  
+  border:thin solid #dddddd;
+  font-weight:300;
+  display:inline;
+  vertical-align:middle;
+  color:#333;
+  padding: auto 0;
+  overflow:hidden;
+  box-sizing:border-box;
+
+}
+
+.ion-input-select--large {
+  width:420px;
+  font-size:1.6rem;
+  background-image: url(https://i.imgur.com/7rGM4IX.png);
+  text-indent:40px;
+  padding:1.2rem 0;
+}
+
+.ion-input-select {
+  width:200px;
+  font-size:1rem;
+  background-image: url(https://i.imgur.com/nA9xx1X.png);
+  text-indent:20px;
+  padding:.5rem 0;
+}
+
+option {
+  background:#444;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+:focus {
+  outline:none;
+}
+/*to button*/
+.float-button {
+ 
+    background-color:#0b0b0c;
+    opacity: 0.9;
+    color: white;
+    border-radius: 50%;
+    /*border-radius:15% 0 0 0;*/
+    width: 40px;
+    padding: 25px;
+    font-size: 40px;
+    position: fixed;
+    bottom: 5%; /* Adjust height */
+    right: 5%; /* Adjust position */
+    z-index: 1000;
+    }
+     
+    .float-button .height_fix {
+      margin-top: 100%;
+      border: 1px solid rgb(182, 30, 30);
+     
+    }
+     
+    .float-button .content {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      margin-top: -20px;
+      color: rgb(255, 255, 255);
+    }
+

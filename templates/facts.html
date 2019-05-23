@@ -1,0 +1,39 @@
+
+    <ion-view view-title="{{item.Estacion.Name}}">
+      <ion-content class="padding">
+          <ion-list>
+                <div id="container-speedy" style="height: 200px;position: center;"></div>
+                  <ul class="list">
+                             <a class="item item-thumbnail-left" href="" ng-click="modal.show()">
+							    <img src="img/icon1.png">
+                                <h2 style="color:black;font-size:20px;font-weight:bold;">Niños & Ancianos</h2>
+                                <p>{{listr.namek}}</p>
+							    <i style="margin-left:220px;" class="icon ion-chevron-right"></i>
+							</a>
+						    <a class="item item-thumbnail-left" href="">
+							   <img src="img/ventana.jpg" alt="">
+							   <h2 style="color:black;font-size:20px;font-weight:bold;">Ventilacion</h2>
+                                <p>{{listr.namev}}</p>
+							    <i style="margin-left:220px;" class="icon ion-chevron-right"></i>
+							</a>
+						    <a class="item item-thumbnail-left" href="">
+							  <img src="img/masks.jpg" alt="" >
+							  <h2 style="color:black;font-size:20px;font-weight:bold;">Mascara</h2>
+                                <p>{{listr.namem}}</p>
+							    <i style="margin-left:220px;" class="icon ion-chevron-right"></i>
+                            </a>
+                            <a class="item item-thumbnail-left" href="">
+                                    <img src="img/outdoor.jpg" alt="" >
+                                    <h2 style="color:black;font-size:20px;font-weight:bold;">Al aire libre</h2>
+                                      <p>{{listr.nameout}}</p>
+                                      <i style="margin-left:220px;" class="icon ion-chevron-right"></i>
+                            </a>
+                  </ul>
+                  
+          </ion-list>
+          <div id="mapi" style="height:200px;">
+
+            </div>
+      
+      </ion-content>
+    </ion-view>
